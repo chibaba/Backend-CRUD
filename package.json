@@ -2,20 +2,20 @@
   "name": "mern-backend",
   "version": "1.0.0",
   "description": "an authenticated backend",
-  "main": "server.js",
+  "main": "server/server.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "nodemon"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chibaba/Backend-CRUD.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chibaba/Backend-CRUD/issues"
   },
-  "homepage": "https://github.com/chibaba/Backend-CRUD#readme",
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
@@ -30,6 +30,8 @@
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "helmet": "^4.2.0"
+    "helmet": "^4.2.0",
+    "mongoose": "^5.10.16",
+    "nodemon": "^2.0.6"
   }
 }
