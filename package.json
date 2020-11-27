@@ -1,0 +1,27 @@
+{
+  "name": "mern-backend",
+  "version": "1.0.0",
+  "description": "an authenticated backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chibaba/Backend-CRUD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chibaba/Backend-CRUD/issues"
+  },
+  "homepage": "https://github.com/chibaba/Backend-CRUD#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.8.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
