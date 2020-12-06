@@ -6,7 +6,7 @@ import cors from 'cors'
 import helmet from 'helmet'
 import Template from '../template.mjs'
 import userRoutes from './routes/user.routes.mjs'
-// import authRoutes from './routes/auth.routes'
+import authRoutes from './routes/auth.routes.mjs'
 
 
 const app = express();
@@ -19,7 +19,7 @@ app.use(helmet())
 app.use(cors())
 
 app.use('/', userRoutes)
-// app.use('/', authRoutes)
+app.use('/', authRoutes)
 
 
 
